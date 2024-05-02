@@ -1,0 +1,10 @@
+.controlpanel-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.controlpanel-container .controlpanel-content {
+  width: 100%;
+  height: 100%;
+}

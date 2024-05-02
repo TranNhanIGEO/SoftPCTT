@@ -1,0 +1,14 @@
+.image-render {
+  width: 100%;
+  height: 100%;
+}
+
+.video-render {
+  width: 100%;
+  height: 100%;
+}
+
+.pdf-render {
+  width: 80vw;
+  height: 80vh;
+}

@@ -1,0 +1,201 @@
+/* ToolTip */
+.MuiTooltip-tooltip {
+  font-family: var(--font-inter) !important;
+  font-weight: 400 !important;
+  font-size: 1rem !important;
+}
+
+/* Table */
+.MuiPaper-root {
+  overflow: hidden !important;
+  box-shadow: none !important;
+  border-radius: unset !important;
+  border: solid 1px var(--grey-color-700) !important;
+}
+
+/* Table - TopToolbar */
+.MuiPaper-root .MuiToolbar-root .MuiBox-root {
+  padding: 0.2rem;
+  align-items: center;
+  height: 100%;
+  gap: 0.5rem;
+}
+
+.MuiPaper-root .MuiToolbar-root .Mui-ToolbarDropZone {
+  padding: 0;
+}
+
+.MuiPaper-root .MuiToolbar-root .MuiButtonBase-root {
+  padding: 3px;
+}
+
+/* Table - Container */
+.MuiPaper-root .MuiTableContainer-root {
+  border-color: var(--grey-color-700);
+  border-top: solid 1px;
+  border-bottom: solid 1px;
+}
+
+/* Table - Container - Header */
+.MuiTableHead-root {
+  position: sticky;
+  z-index: 2;
+}
+
+.MuiTableHead-root .MuiTableCell-head {
+  padding: 3px !important;
+  text-wrap: nowrap !important;
+  width: max-content !important;
+  font-family: var(--font-inter) !important;
+  font-weight: 600 !important;
+  font-size: 1.3rem !important;
+  color: var(--blue-color-800) !important;
+  background: var(--blue-color-600) !important;
+  border: 1px solid rgba(224, 224, 224, 1) !important;
+}
+
+.Mui-TableHeadCell-Content.MuiBox-root {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.2rem;
+}
+
+.Mui-TableHeadCell-Content .Mui-TableHeadCell-Content-Labels,
+.Mui-TableHeadCell-Content .Mui-TableHeadCell-Content-Actions {
+  padding: 0.3rem;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(232, 232, 232, 1) 100%
+  );
+  border-radius: 1rem;
+}
+
+.Mui-TableHeadCell-Content .Mui-TableHeadCell-Content-Wrapper {
+  font-size: 1.1rem;
+  text-wrap: nowrap;
+  width: max-content;
+}
+
+.Mui-TableHeadCell-Content .Mui-TableHeadCell-Content-Actions {
+  height: 100%;
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.Mui-TableHeadCell-Content
+  .Mui-TableHeadCell-Content-Actions
+  .MuiButtonBase-root {
+  margin: 0.1rem;
+  padding: 0.1rem 0.2rem;
+  height: 100%;
+  width: 100%;
+  transform: translateX(0rem);
+}
+
+/* Table - Container - Body */
+.MuiTableBody-root {
+  cursor: pointer;
+  background: var(--color-white);
+}
+
+.MuiTableBody-root .MuiTableCell-body {
+  font-family: var(--font-inter) !important;
+  font-weight: 500 !important;
+  font-size: 1.1rem !important;
+  color: var(--color-black) !important;
+  border: 1px solid rgba(224, 224, 224, 1) !important;
+}
+
+/* Table - BottomToolbar */
+.MuiTablePagination-root {
+  overflow: hidden;
+}
+
+.MuiTablePagination-root .MuiToolbar-root {
+  min-height: 100%;
+  overflow: hidden;
+}
+
+.MuiTablePagination-root .MuiTablePagination-spacer,
+.MuiTablePagination-root .MuiInputBase-root {
+  height: 1.5rem;
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+}
+
+.MuiTablePagination-root .MuiTablePagination-selectLabel {
+  font-family: var(--font-inter);
+  font-weight: 400;
+  color: black;
+  font-size: 1rem;
+}
+
+.MuiTablePagination-root .MuiTablePagination-displayedRows {
+  font-family: var(--font-inter);
+  color: black;
+  height: 1.5rem;
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+  .MuiTableHead-root .MuiTableCell-head {
+    font-size: 1.2rem !important;
+  }
+
+  .Mui-TableHeadCell-Content .Mui-TableHeadCell-Content-Wrapper {
+    font-size: 1rem !important;
+  }
+
+  .MuiTableBody-root .MuiTableCell-body {
+    font-size: 1rem !important;
+  }
+
+  .MuiTablePagination-root .MuiTablePagination-spacer,
+  .MuiTablePagination-root .MuiInputBase-root {
+    font-size: 0.9rem;
+  }
+
+  .MuiTablePagination-root .MuiTablePagination-selectLabel {
+    font-size: 0.9rem;
+  }
+
+  .MuiTablePagination-root .MuiTablePagination-displayedRows {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .MuiTableHead-root .MuiTableCell-head {
+    font-size: 1rem !important;
+  }
+
+  .Mui-TableHeadCell-Content .Mui-TableHeadCell-Content-Wrapper {
+    font-size: 0.9rem !important;
+  }
+
+  .MuiTableBody-root .MuiTableCell-body {
+    font-size: 0.9rem !important;
+  }
+
+  .MuiTablePagination-root .MuiTablePagination-spacer,
+  .MuiTablePagination-root .MuiInputBase-root {
+    font-size: 0.8rem;
+  }
+
+  .MuiTablePagination-root .MuiTablePagination-selectLabel {
+    font-size: 0.8rem;
+  }
+
+  .MuiTablePagination-root .MuiTablePagination-displayedRows {
+    font-size: 0.8rem;
+  }
+}

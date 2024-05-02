@@ -1,0 +1,7 @@
+.mapbox-popup-chart .mapboxgl-popup-content {
+  background: transparent;
+  box-shadow: none;
+  height: 100px;
+  width: 100px;
+  padding: 0;
+}

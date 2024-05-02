@@ -1,0 +1,11 @@
+.login {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  color: var(--blue-color-800);
+  font-family: var(--font-inter);
+}

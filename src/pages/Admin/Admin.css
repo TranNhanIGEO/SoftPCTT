@@ -1,0 +1,20 @@
+.admin {
+  height: 100%;
+  width: 100%;
+}
+
+.history {
+  height: 100%;
+  width: 100%;
+}
+
+.edit-data-argument .edit-data-password {
+  align-self: flex-start;
+  width: 12rem;
+  height: 2.4rem;
+  margin: 0.5rem 0.5rem 0 0.5rem;
+}
+
+.edit-data-argument .button-group {
+  align-self: flex-start;
+}

@@ -1,0 +1,17 @@
+.edit-data {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.edit-data-excel {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  padding: 3%;
+  width: 100%;
+  height: 100%;
+}

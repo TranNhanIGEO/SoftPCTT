@@ -1,0 +1,6 @@
+.button-group {
+  display: flex;
+  gap: 0.5rem;
+  height: auto;
+  z-index: 2;
+}

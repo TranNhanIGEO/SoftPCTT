@@ -1,0 +1,176 @@
+.tab-legend {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background: white;
+}
+
+.legend-title {
+  position: relative;
+  width: 100%;
+  top: 0rem;
+  height: 2.5rem;
+  background: var(--blue-color-600);
+  box-shadow: 0 6.42px 6.42px rgba(0, 0, 0, 0.25) inset;
+}
+
+.legend-title span {
+  position: relative;
+  padding: 0.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--font-inter);
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: white;
+  width: 100%;
+  height: 100%;
+}
+
+.legend-container {
+  position: relative;
+  padding: 0.5rem;
+  height: calc(100% - 2.5rem);
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.temperature-legend,
+.salinity-legend {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  padding: 0.2rem;
+  width: 100%;
+  height: auto;
+}
+
+.temperature-legend span,
+.salinity-legend span {
+  font-family: var(--font-inter);
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: black;
+}
+
+.temperature-legend-color {
+  width: 100%;
+  height: 2.5rem;
+  background: rgb(246, 254, 1);
+  background: linear-gradient(
+    90deg,
+    rgba(246, 254, 0, 1) 0%,
+    rgba(254, 31, 0, 1) 100%
+  );
+}
+
+.temperature-legend-label {
+  display: flex;
+  justify-content: space-between;
+}
+
+.salinity-legend-color {
+  width: 100%;
+  height: 2.5rem;
+  background: rgb(0, 4, 251);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 4, 251, 1) 0%,
+    rgba(0, 247, 8, 1) 50%,
+    rgba(254, 1, 0, 1) 100%
+  );
+}
+
+.salinity-legend-label {
+  display: flex;
+  justify-content: space-between;
+}
+
+.items-legend {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  padding: 0.2rem;
+  width: 100%;
+  height: auto;
+}
+
+.item-legend {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 0.2rem;
+}
+
+.item-legend span {
+  font-family: var(--font-inter);
+  color: black;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.item-legend img {
+  height: 24px;
+  width: 24px;
+}
+
+@media (max-width: 1024px) {
+  .legend-title span {
+    font-size: 1.1rem;
+  }
+
+  .temperature-legend span,
+  .salinity-legend span {
+    font-size: 1.1rem;
+  }
+
+  .item-legend span {
+    font-size: 1.2rem;
+  }
+
+  .item-legend img {
+    height: 22px;
+    width: 22px;
+  }
+}
+
+@media (max-width: 600px) {
+  .legend-title span {
+    font-size: 1rem;
+  }
+
+  .temperature-legend span,
+  .salinity-legend span {
+    font-size: 1rem;
+  }
+
+  .item-legend span {
+    font-size: 1.1rem;
+  }
+
+  .item-legend img {
+    height: 20px;
+    width: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .legend-title span {
+    font-size: 1rem;
+  }
+
+  .temperature-legend span,
+  .salinity-legend span {
+    font-size: 1rem;
+  }
+
+  .item-legend span {
+    font-size: 1rem;
+  }
+
+  .item-legend img {
+    height: 18px;
+    width: 18px;
+  }
+}

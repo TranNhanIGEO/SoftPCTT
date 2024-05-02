@@ -1,0 +1,163 @@
+.upload-excel {
+  width: 100%;
+  height: 100%;
+}
+
+.upload-excel-title {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 2.5rem;
+  background: var(--blue-color-600);
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.upload-excel-title span {
+  font-family: var(--font-inter);
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: white;
+}
+
+.upload-excel-form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-left: 2px solid var(--grey-color-200);
+  border-right: 2px solid var(--grey-color-200);
+  height: 4.5;
+}
+
+.upload-excel-action {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.5rem;
+}
+
+.upload-excel-action input[type="file"]::file-selector-button {
+  border: 1px solid orangered;
+  background: orangered;
+  color: var(--color-white);
+  border-radius: 0.5rem;
+  padding: 0.5rem 2rem;
+  height: 30px;
+}
+
+.upload-excel-action input[type="file"] {
+  border: 1px solid orangered;
+  color: orangered;
+  border-radius: 10px;
+}
+
+.upload-excel-btn {
+  gap: 0.5rem;
+  font-size: 1.3rem;
+  font-weight: 600;
+  padding: 0.5rem 2rem;
+}
+
+.upload-excel-action .upload-excel-btn {
+  color: var(--blue-color-800);
+  background: #ffffff;
+}
+
+.upload-excel-action img {
+  width: 2rem;
+  height: 2rem;
+}
+
+.upload-excel-submit {
+  padding: 0.5rem;
+  height: auto;
+}
+
+.upload-excel-submit .upload-excel-btn {
+  color: var(--color-white);
+  background: #008000;
+}
+
+.upload-excel-submit .upload-excel-btn:hover {
+  background: #4caf50;
+}
+
+.upload-excel-submit img {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.upload-excel-bar {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 8rem;
+  border: 2px solid var(--grey-color-200);
+  overflow-y: hidden;
+  overflow-x: scroll;
+}
+
+.upload-excel-selection {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  width: max-content;
+}
+
+.upload-excel-columns {
+  display: flex;
+  align-items: center;
+  min-width: fit-content;
+  padding: 0.5rem;
+  gap: 0.5rem;
+}
+
+.upload-excel-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.upload-excel-column span {
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding: 0 0.5rem;
+  color: var(--blue-color-800);
+}
+
+.upload-excel-column select {
+  border-radius: 10px;
+  padding: 0.35rem;
+  background: #f7f1e8;
+}
+
+.upload-excel-status.checked ~ .upload-excel-column select {
+  border: 1px solid #08b408;
+}
+
+.upload-excel-status {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  border: 1px solid var(--grey-color-700);
+}
+
+.upload-excel-status img {
+  display: none;
+}
+
+.upload-excel-status.checked {
+  background-color: #4caf50;
+}
+
+.upload-excel-status.checked img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.upload-excel-table {
+  height: calc(100% - 2.5rem - 4.5rem - 8rem);
+}

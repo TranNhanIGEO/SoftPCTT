@@ -1,0 +1,44 @@
+.edit-map-form {
+  position: relative;
+  height: 90%;
+  width: 40%;
+  min-width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.edit-map-title {
+  position: relative;
+  height: 3rem;
+  width: 100%;
+  background: var(--blue-color-800);
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.edit-map-title span {
+  color: white;
+  font-weight: 600;
+  font-size: 1.4rem;
+}
+
+.edit-map-content {
+  width: 100%;
+  height: calc(100% - 3rem);
+}
+
+.edit-map-content .mapboxgl-map {
+  float: left;
+}
+
+.edit-map-content .mapboxgl-ctrl-custom {
+  position: relative;
+  width: 0;
+  height: 0;
+  float: unset;
+}

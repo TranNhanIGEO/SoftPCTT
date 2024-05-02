@@ -1,0 +1,84 @@
+.solution {
+  height: 100%;
+  width: 100%;
+}
+
+.solution-statistic {
+  height: 100%;
+  width: 100%;
+  padding: 3%;
+}
+
+.solution-statistic-bar {
+  height: 2.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--blue-color-600);
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.solution-statistic-title {
+  font-family: var(--font-inter);
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: white;
+  padding-left: 2rem;
+}
+
+.solution-statistic-action {
+  padding-right: 1rem;
+  display: flex;
+  gap: 2rem;
+}
+
+.solution-statistic-action button {
+  background: transparent;
+  border: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.solution-statistic-action a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.export-statistic img:hover {
+  filter: invert(100%);
+}
+
+.solution-statistic-content {
+  height: calc(100% - 2.5rem);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+  border: 0.1rem solid var(--blue-color-600);
+}
+.solution-statistic-chart {
+  height: 50%;
+  width: 100%;
+}
+
+.solution-statistic-chart div {
+  height: 100%;
+}
+
+.solution-statistic-chart div #highcharts-f79elvr-0 {
+  height: 100%;
+}
+.highcharts-background {
+  height: 100%;
+}
+
+.highcharts-root {
+  height: 100%;
+}
+
+.solution-statistic-table {
+  height: 50%;
+}

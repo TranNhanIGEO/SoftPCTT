@@ -1,0 +1,126 @@
+.edit-data {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.edit-data-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.edit-data-form {
+  position: relative;
+  height: 90%;
+  width: 40%;
+  min-width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.edit-data-box {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  z-index: 2;
+}
+
+.edit-data-title {
+  position: relative;
+  height: 3rem;
+  width: 100%;
+  background: var(--blue-color-600);
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.edit-data-title span {
+  color: white;
+  font-weight: 600;
+  font-size: 1.4rem;
+}
+
+.edit-data-title button {
+  position: absolute;
+  right: 0.5rem;
+  height: 90%;
+  color: red;
+  height: 2.5rem;
+}
+
+.edit-data-content {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: calc(100% - 6rem);
+  background-color: var(--grey-color-50);
+  border-radius: 0 0 0.6rem 0.6rem;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.edit-data-argument {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 80%;
+  height: 100%;
+  padding: 0.5rem;
+}
+
+.edit-data-argument span {
+  align-self: flex-start;
+  font-weight: 500;
+  font-size: 1.1rem;
+  color: red;
+  margin: 0.5rem 0.5rem 0 0.5rem;
+}
+
+.edit-data-action {
+  width: 100%;
+  height: 3rem;
+  background: var(--blue-color-600);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 0 0 0.5rem 0.5rem;
+}
+
+.edit-data-action button {
+  margin: 0 0.5rem 0 0.5rem;
+  height: 90%;
+  background: linear-gradient(
+    0deg,
+    var(--grey-color-50),
+    var(--grey-color-200) 100%
+  );
+}
+
+.edit-data-action button a {
+  height: 90%;
+  width: 100%;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.edit-data-action button:hover {
+  background: white;
+  box-shadow: 0.1rem 0.2rem 0.3rem var(--grey-color-700);
+}

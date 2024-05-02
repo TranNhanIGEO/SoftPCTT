@@ -1,0 +1,76 @@
+.home {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  padding: 0;
+  margin: 0;
+}
+
+.mapbox {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.controlpanel {
+  position: absolute;
+  left: -20vw;
+  height: 100%;
+  width: 20vw;
+  z-index: 2;
+  background-color: var(--color-white);
+  border: solid 0.05rem var(--grey-color-700);
+  transition: all 0.3s;
+}
+
+.controlpanel.active {
+  left: 0;
+}
+
+.attributetable {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 0%;
+  width: 100vw;
+  z-index: 2;
+  background-color: var(--color-white);
+  border-top: solid 0.05rem var(--grey-color-700);
+  transition: all 0.3s;
+}
+
+.attributetable.active {
+  height: 40%;
+}
+
+.controlpanel.active ~ .attributetable {
+  width: 80vw;
+}
+
+@media (max-width: 1024px) {
+  .controlpanel {
+    width: 20rem;
+    left: -20rem;
+    transition: all 0.3s;
+  }
+
+  .attributetable {
+    width: 100%;
+    transition: all 0.3s;
+  }
+
+  .controlpanel.active ~ .attributetable {
+    width: 100%;
+  }
+}
+
+/* @media (max-width: 600px) {
+  .controlpanel {
+    left: 0;
+  }
+  
+  .controlpanel.active {
+    left: -20rem;
+  }
+} */

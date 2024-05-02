@@ -1,0 +1,72 @@
+.form-control {
+  padding: 0.3rem 1.2rem;
+  width: 100%;
+  min-height: 3rem;
+  font-family: var(--font-inter);
+  font-size: 1.3rem;
+  border: solid 0.1rem var(--grey-color-700);
+  border-radius: 0 0.5rem 0.5rem 0.5rem;
+  color: var(--color-black);
+  background: var(--color-white);
+  outline: none;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.form-suggestion-control:disabled {
+  color: var(--color-white);
+  background: var(--grey-color-500)
+}
+
+.form-control:focus {
+  border: solid 0.1rem var(--blue-color-600);
+  box-shadow: 0.1rem 0.2rem 0.3rem var(--blue-color-600);
+}
+
+/* Date formmat */
+input[type="date"]::-webkit-datetime-edit,
+input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-clear-button {
+  color: #fff;
+  position: relative;
+}
+
+input[type="date"]::-webkit-datetime-edit-year-field {
+  position: absolute !important;
+  border-left: 1px solid #000;
+  color: #000;
+  left: 55px;
+}
+
+input[type="date"]::-webkit-datetime-edit-month-field {
+  position: absolute !important;
+  border-left: 1px solid #000;
+  color: #000;
+  left: 26px;
+}
+
+input[type="date"]::-webkit-datetime-edit-day-field {
+  position: absolute !important;
+  color: #000;
+  left: 4px;
+}
+
+@media (max-width: 1024px) {
+  .form-control {
+    font-size: 1.2rem;
+    min-height: 2.8rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .form-control {
+    font-size: 1.1rem;
+    min-height: 2.6rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .form-control {
+    font-size: 1rem;
+    min-height: 2.4rem;
+  }
+}

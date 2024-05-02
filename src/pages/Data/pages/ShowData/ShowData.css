@@ -1,0 +1,105 @@
+.data-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3%;
+  width: 100%;
+  height: 100%;
+}
+
+.data-container {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.data-title {
+  position: relative;
+  margin: 0;
+  padding: 0 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 2.5rem;
+  background: var(--blue-color-600);
+}
+
+.data-title button {
+  min-height: auto;
+  border-radius: 0.3rem;
+  padding: 0.2rem 0.5rem;
+}
+
+.data-title .form-select {
+  width: 18rem;
+  min-height: 2rem;
+  border-radius: 0.3rem;
+}
+
+.data-bar-title {
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+}
+
+.data-bar-title span {
+  font-family: var(--font-inter);
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: white;
+}
+
+.data-content {
+  position: relative;
+  height: calc(100% - 2.5rem);
+  width: 100%;
+}
+
+.data-table {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+@media (max-width: 1024px) {  
+  .data-title .form-select {
+    width: 17rem;
+  }
+
+  .data-bar-title span {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .data-title {
+    flex-direction: column;
+    height: 5rem;
+    padding: 0.5rem;
+  }
+
+  .data-title .form-select {
+    width: 16rem;
+  }
+
+  .data-bar-title span {
+    font-size: 1.2rem;
+  }
+
+  .data-content {
+    height: calc(100% - 5rem);
+  }
+}
+
+@media (max-width: 600px) {
+  .data-title .form-select {
+    width: 15rem;
+  }
+
+  .data-bar-title span {
+    font-size: 1.1rem;
+  }
+}

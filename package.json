@@ -1,0 +1,70 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mapbox/mapbox-gl-draw": "^1.4.3",
+    "@mui/icons-material": "^5.14.14",
+    "@mui/material": "^5.14.14",
+    "@mui/x-date-pickers": "^6.18.2",
+    "@reduxjs/toolkit": "^1.9.5",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/file-saver": "^2.0.7",
+    "@types/mapbox-gl": "^2.7.14",
+    "axios": "^1.5.0",
+    "browser-image-compression": "^2.0.2",
+    "clsx": "^2.0.0",
+    "crypto-js": "^4.1.1",
+    "dayjs": "^1.11.10",
+    "docxtemplater": "^3.40.2",
+    "file-saver": "^2.0.5",
+    "highcharts": "^11.2.0",
+    "highcharts-react-official": "^3.2.1",
+    "jwt-decode": "^4.0.0",
+    "mapbox-gl": "^2.15.0",
+    "mapbox-gl-interpolate-heatmap": "^0.7.0",
+    "material-react-table": "^1.15.1",
+    "pizzip": "^3.1.4",
+    "proj4": "^2.10.0",
+    "react": "^18.2.0",
+    "react-csv": "^2.2.2",
+    "react-dom": "^18.2.0",
+    "react-map-gl": "^7.1.6",
+    "react-redux": "^8.1.2",
+    "react-router-dom": "^6.15.0",
+    "react-scripts": "5.0.1",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-persist": "^6.0.0",
+    "uuid": "^9.0.1",
+    "web-vitals": "^2.1.4",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": [
+    "defaults",
+    "not ie 11"
+  ],
+  "browser": {
+    "fs": false,
+    "os": false,
+    "path": false
+  }
+}

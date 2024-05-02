@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&display=swap");
+@import "./CustomTable.css";
+@import "./CustomForm.css";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: Inter, Arial, Sans-serif;
+  font-size: 1.6rem;
+  overflow: hidden;
+  text-rendering: optimizeSpeed;
+  overflow-y: overlay;
+}
+
+:root {
+  /* fonts */
+  --font-inter: Inter, Arial, Sans-serif;
+
+  /* font sizes */
+  --font-size-3xs-6: 0.6rem;
+  --font-size-mini-4: 0.9rem;
+  --font-size-smi-8: 0.8rem;
+  --font-size-lgi-3: 1.21rem;
+  --font-size-base: 1rem;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-black: #000;
+  --blue-color-800: #125386;
+  --blue-color-600: #1e89dd;
+  --grey-color-50: #f5f5f5;
+  --grey-color-100: #e1e1e1;
+  --grey-color-200: #d2d2d2;
+  --grey-color-500: #b4b3b3;
+  --grey-color-700: #707070;
+  --grey-color-800: #575757;
+
+  /* Gaps */
+  --gap-9xl-9: 1.81rem;
+  --gap-6xs: 0.44rem;
+  --gap-5xs: 0.5rem;
+
+  /* Paddings */
+  --padding-8xs: 0.31rem;
+  --padding-3xs: 0.63rem;
+  --padding-29xl: 3rem;
+
+  /* Border radiuses */
+  --br-9xs-2: 3.2px;
+}
+
+.primary {
+  color: #fff;
+  background: #026ddf;
+  border: 1px solid #026ddf;
+}
+
+.primary:hover {
+  color: #fff;
+  background: #0850bb;
+  border: 1px solid #0850bb;
+}
+
+.secondary {
+  color: #fff;
+  background: #6c757d;
+  border: 1px solid #6c757d;
+}
+
+.secondary:hover {
+  color: #fff;
+  background: #5c636a;
+  border: 1px solid #5c636a;
+}
+
+.success {
+  color: #fff;
+  background: #198754;
+  border: 1px solid #198754;
+}
+
+.success:hover {
+  color: #fff;
+  background: #146c43;
+  border: 1px solid #146c43;
+}
+
+.danger {
+  color: #fff;
+  background: #dc3545;
+  border: 1px solid #dc3545;
+}
+
+.danger:hover {
+  color: #fff;
+  background: #bb2d3b;
+  border: 1px solid #bb2d3b;
+}
+
+.warning {
+  color: #000;
+  background: #ffc107;
+  border: 1px solid #ffc107;
+}
+
+.warning:hover {
+  color: #000;
+  background: #ffca2c;
+  border: 1px solid #ffca2c;
+}

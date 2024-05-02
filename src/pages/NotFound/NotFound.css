@@ -1,0 +1,30 @@
+.notfound {
+  display: flex;
+  flex-direction: column-reverse;
+  height: 100vh;
+  width: 100vw;
+}
+
+.notfound img {
+  position: relative;
+  height: 95%;
+  width: 100%;
+}
+
+.notfound a {
+  background: var(--blue-color-800);
+  text-decoration: none;
+  font-family: var(--font-inter);
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: white;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.notfound a:hover {
+  color: yellow;
+}

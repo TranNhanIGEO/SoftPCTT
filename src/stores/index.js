@@ -1,0 +1,13 @@
+export { default as authSlice } from "./auth";
+export { default as adminSlice } from "./admin";
+export { default as globalSlice } from "./global";
+export { default as homeSlice } from "./home";
+export { default as materialSlice } from "./material";
+export { default as solutionSlice } from "./solution";
+export { default as dataSlice } from "./data";
+export { initState as adminState } from "./admin";
+export { initState as globalState } from "./global";
+export { initState as homeState } from "./home";
+export { initState as materialState } from "./material";
+export { initState as solutionState } from "./solution";
+export { initState as dataState } from "./data";
